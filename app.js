@@ -59,3 +59,5 @@ politicsBtn.addEventListener('click', event => sectDisp(politics), false)
 
 
 sectDisp(home);
+
+document.getElementById('homeBtn').focus();
