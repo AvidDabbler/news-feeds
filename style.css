@@ -11,8 +11,23 @@ body {
     text-align: center;
     margin: 50px 0;
 }
-#app{
+.tab{
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.tablinks{
+    width: 25%;
+    font-size: 20px;
+}
+button{
+    border: none;
+    background: white;
+    padding: 7px;
+}
+button:focus{
+    background: grey;
+    color: white;
 }
 a{
     color: black;
@@ -23,6 +38,7 @@ a:hover{
     color: #2e84ed;
 }
 #app{
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-items: space-between;
